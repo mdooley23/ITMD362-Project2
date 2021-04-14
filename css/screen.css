@@ -1,0 +1,134 @@
+/* general css */
+head{
+    background-color: #ffffff;
+}
+body{
+    background-color: #ffffff;
+}
+#footer1{
+    text-shadow: 0 0 3px #000, 0 0 5px #000;
+    color:#ffffff;
+    background-color: skyblue;
+    padding: 10px;
+    margin-top: 50px;
+}
+#footer2{
+    text-shadow: 0 0 3px #000, 0 0 5px #000;
+    color:#ffffff;
+    background-color: skyblue;
+    padding: 10px;
+    margin-top: 50px;
+}
+#footer3{
+    text-shadow: 0 0 3px #000, 0 0 5px #000;
+    color:#ffffff;
+    background-color: skyblue;
+    padding: 10px;
+    margin-top: 50px;
+}
+.title{
+    font-size: xx-large;
+    padding-top: 1%;
+    padding-left: 1%;
+    color: black;
+}
+/* navbar */
+#main-navbar
+{
+	background-color: skyblue;
+	overflow: hidden;
+	width: 100%;
+}
+
+#navbar-container
+{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+#main-navbar ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    left: 50%;
+ 	float: left;
+ 	position: relative;
+}
+
+#main-navbar ul li
+{
+    display: block;
+ 	float: left;
+ 	right: 50%;
+ 	position: relative;
+}
+
+#main-navbar ul li a
+{
+	display: block;
+	padding: 20px 20px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+    font-size: x-large;
+}
+
+#main-navbar ul li a:hover
+{
+	background-color: royalblue;
+}
+/*index css */
+
+/* about us page css */
+
+/* contact us page css */
+div.contacttext {
+    font-size: x-large;
+    margin-left: 40%;
+    margin-top: -7%;
+    margin-bottom: 5%;
+}
+input[type='email'], [type='text'], [type='tel'], [type='date'] select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: skyblue;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: royalblue;
+}
+  
+div.formcontainer {
+    border-radius: 5px;
+    background-color: #c2d4f5;
+    padding: 20px;
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+}
+ul.formlist{
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+}
+fieldset{
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" class ="nojs">
+<head>
+	<!--stylesheets-->
+    <link rel="stylesheet" href="css/screen.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    
+    <!--fonts-->
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Reach Out To Us Below</h1>
+            <nav id = "main-navbar">
+                <div id = "navbar-container">
+                    <ul>
+                        <li><a href="index.html">Homepage</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main id="content">
+            <div class="logo">
+                <img src="css/assets/ISUD.png" alt="logo">
+            </div>
+            <div class="contacttext">
+              <h2>Fill out your information in the boxes below to join</h2>
+              <p>Help make a difference with us!</p>
+              <p>Once you submit your information, we will activate your membership,</p>
+              <p>and then you too can help facilitate a better dialogue towards a better world!</p>
+            </div>
+            <form id="form-one" method="get" autocomplete="on" action="#null" onsubmit= "return allInputs()">
+              <div class="formcontainer">
+                <fieldset>
+                  <ul class="formlist">
+                    <li class="data">
+                      <label for="first-name">First Name:</label>
+                      <input type="text" id="first-name" name="first-name">
+                    </li>
+                    <li class="data">
+                      <label for="last-name">Last Name:</label>
+                      <input type="text" id="last-name" name="last-name">
+                    </li>
+                    <li class="data">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email">
+                    </li>
+                    <li class="data">
+                      <label for="phone">Phone Number:</label>
+                      <input type="tel" id="phone" name="phone">
+                    </li>
+                    <li class="submit">
+                      <input type="submit" value="Submit">
+                    </li>
+                  </ul>
+                </fieldset>
+              </div>
+          </form>
+        </main>
+        <footer id="footer3">
+            <p>© 2021 Hyrule Warriors</p>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/site.js" async></script>
+</body> 
+</html>
