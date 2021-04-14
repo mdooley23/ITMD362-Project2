@@ -5,6 +5,7 @@ head{
 body{
     background-color: #ffffff;
 }
+<<<<<<< HEAD:assets/css/screen.css
 .header {
   position: fixed;
   left: 0;
@@ -22,6 +23,34 @@ body{
   background-color: skyblue;
   color: white;
   text-align: center;
+=======
+#footer1{
+    text-shadow: 0 0 3px #000, 0 0 5px #000;
+    color:#ffffff;
+    background-color: skyblue;
+    padding: 10px;
+    margin-top: 50px;
+}
+#footer2{
+    text-shadow: 0 0 3px #000, 0 0 5px #000;
+    color:#ffffff;
+    background-color: skyblue;
+    padding: 10px;
+    margin-top: 50px;
+}
+#footer3{
+    text-shadow: 0 0 3px #000, 0 0 5px #000;
+    color:#ffffff;
+    background-color: skyblue;
+    padding: 10px;
+    margin-top: 50px;
+}
+.title{
+    font-size: xx-large;
+    padding-top: 1%;
+    padding-left: 1%;
+    color: black;
+>>>>>>> c323f9258e85b3371bf7820bf9cdbe7c05578655:css/screen.css
 }
 /* navbar */
 #main-navbar
@@ -95,6 +124,7 @@ h1{
 /* about us page css */
 
 /* contact us page css */
+<<<<<<< HEAD:assets/css/screen.css
 
 
 }
@@ -118,3 +148,54 @@ input[type='submit']{
     display: block;
 
 }
+=======
+div.contacttext {
+    font-size: x-large;
+    margin-left: 40%;
+    margin-top: -7%;
+    margin-bottom: 5%;
+}
+input[type='email'], [type='text'], [type='tel'], [type='date'] select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: skyblue;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: royalblue;
+}
+  
+div.formcontainer {
+    border-radius: 5px;
+    background-color: #c2d4f5;
+    padding: 20px;
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+}
+ul.formlist{
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+}
+fieldset{
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+}
+>>>>>>> c323f9258e85b3371bf7820bf9cdbe7c05578655:css/screen.css
