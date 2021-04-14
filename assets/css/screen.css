@@ -31,6 +31,7 @@ height: 20px;
   background-color: skyblue;
   color: white;
   text-align: center;
+  padding-bottom: -30px;
 }
 .footer {
   position: fixed;
@@ -52,7 +53,7 @@ height: 20px;
 #navbar-brand
 {
   margin: 0;
-  padding: 1;
+  padding: 0;
     left: 50%;
   float: left;
   position: fixed;
@@ -98,9 +99,24 @@ height: 20px;
 }
 
 
+
 /*index css */
-fieldset
+
 /*h1 with main logo on the Homepage*/
+
+
+nav {
+    float: left;
+    text-align: center;
+
+}
+
+.logo{
+  max-height: 120px;
+  max-width: 300px;
+  float: left;
+  position: left;
+}
 
 h1{
   background-color: #c6dff8;
@@ -124,8 +140,8 @@ body#aboutUs {
 /* contact us page css */
 div.contacttext {
     font-size: x-large;
-    margin-left: 40%;
-    margin-top: -7%;
+    margin-left: 25%;
+    margin-top: 20%;
     margin-bottom: 5%;
 }
 input[type='email'], [type='text'], [type='tel'], [type='date'] select {
