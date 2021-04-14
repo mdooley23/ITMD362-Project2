@@ -9,6 +9,14 @@ footer{
     text-shadow: 0 0 3px #000, 0 0 5px #000;
     color:#ffffff;
     background-color: skyblue;
+    padding: 10px;
+    margin-top: 50px;
+}
+.title{
+    font-size: xx-large;
+    padding-top: 1%;
+    padding-left: 1%;
+    color: black;
 }
 /* navbar */
 #main-navbar
@@ -61,7 +69,7 @@ footer{
 /* about us page css */
 
 /* contact us page css */
-div.contactetxt {
+div.contacttext {
     font-size: x-large;
     margin-left: 40%;
     margin-top: -7%;
@@ -96,6 +104,16 @@ div.formcontainer {
     border-radius: 5px;
     background-color: #c2d4f5;
     padding: 20px;
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+}
+ul.formlist{
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+}
+fieldset{
     text-align: center;
     margin-left:25%;
     margin-right:25%;
