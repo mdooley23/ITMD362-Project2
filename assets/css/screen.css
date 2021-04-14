@@ -5,10 +5,23 @@ head{
 body{
     background-color: #ffffff;
 }
-footer{
-    text-shadow: 0 0 3px #000, 0 0 5px #000;
-    color:#ffffff;
-    background-color: skyblue;
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: skyblue;
+  color: white;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: skyblue;
+  color: white;
+  text-align: center;
 }
 /* navbar */
 #main-navbar
@@ -16,6 +29,15 @@ footer{
 	background-color: skyblue;
 	overflow: hidden;
 	width: 100%;
+}
+
+#navbar-brand
+{
+  margin: 0;
+  padding: 1;
+    left: 50%;
+  float: left;
+  position: fixed;
 }
 
 #navbar-container
@@ -56,28 +78,32 @@ footer{
 {
 	background-color: royalblue;
 }
+
+
 /*index css */
+fieldset
+/*h1 with main logo on the Homepage*/
+
+h1{
+  background-color: #c6dff8;
+  Float:center;
+  width: 50%;
+  height: 15px;
+  border: 0px;
+ }
 
 /* about us page css */
 
 /* contact us page css */
-.formcontainer{
-    position: relative;
-    border-radius: 10px;
-    background-color: #9dd7f091;
-    padding: 20px;
-    width: 50%;
-    align-items: center;
-    margin: auto;
-    margin-top: 10%;
-  
+
+
 }
 input[type='email'], [type='text'], [type='tel'], [type='date']{
     background-color: #c6dff8;
     width: 50%;
     height: 25px;
     border: 0px;
-    
+
 }
 .data {
     background-color: #c0defc;
@@ -90,5 +116,5 @@ input[type='submit']{
     color: white;
     margin: 20px auto;
     display: block;
-    
+
 }
