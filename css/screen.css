@@ -61,3 +61,34 @@ footer{
 /* about us page css */
 
 /* contact us page css */
+.formcontainer{
+    position: relative;
+    border-radius: 10px;
+    background-color: #9dd7f091;
+    padding: 20px;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+  
+}
+input[type='email'], [type='text'], [type='tel'], [type='date']{
+    background-color: #c6dff8;
+    width: 50%;
+    height: 25px;
+    border: 0px;
+    
+}
+.data {
+    background-color: #c0defc;
+    width: 50%;
+    height: 50px;
+    border: 0px;
+}
+input[type='submit']{
+    background: linear-gradient(45deg, skyblue, royalblue 50%);
+    color: white;
+    margin: 20px auto;
+    display: block;
+    
+}
