@@ -1,19 +1,19 @@
 /* general css */
 head{
-    background-color: #eeeeee;
+    background-color: #ffffff;
 }
 body{
-    background-color: #eeeeee;
+    background-color: #ffffff;
 }
 footer{
     text-shadow: 0 0 3px #000, 0 0 5px #000;
-    color:#eeeeee;
-    background-color: #3a68ff;
+    color:#ffffff;
+    background-color: skyblue;
 }
 /* navbar */
 #main-navbar
 {
-	background-color: #3a68ff;
+	background-color: skyblue;
 	overflow: hidden;
 	width: 100%;
 }
@@ -47,14 +47,14 @@ footer{
 {
 	display: block;
 	padding: 20px 20px;
-	color: rgb(22, 22, 22);
+	color: rgb(255, 255, 255);
 	text-decoration: none;
     font-size: x-large;
 }
 
 #main-navbar ul li a:hover
 {
-	background-color: #002763;
+	background-color: royalblue;
 }
 /*index css */
 
