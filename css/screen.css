@@ -61,34 +61,33 @@ footer{
 /* about us page css */
 
 /* contact us page css */
-.formcontainer{
-    position: relative;
-    border-radius: 10px;
-    background-color: #9dd7f091;
-    padding: 20px;
-    width: 50%;
-    align-items: center;
-    margin: auto;
-    margin-top: 10%;
-  
-}
-input[type='email'], [type='text'], [type='tel'], [type='date']{
-    background-color: #c6dff8;
-    width: 50%;
-    height: 25px;
-    border: 0px;
-    
-}
-.data {
-    background-color: #c0defc;
-    width: 50%;
-    height: 50px;
-    border: 0px;
-}
-input[type='submit']{
-    background: linear-gradient(45deg, skyblue, royalblue 50%);
-    color: white;
-    margin: 20px auto;
+input[type='email'], [type='text'], [type='tel'], [type='date'] select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
     display: block;
-    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: skyblue;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: royalblue;
+}
+  
+div.formcontainer {
+    border-radius: 5px;
+    background-color: #c2d4f5;
+    padding: 20px;
 }
