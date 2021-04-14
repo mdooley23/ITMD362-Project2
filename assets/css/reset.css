@@ -40,6 +40,10 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+.logo{
+  max-height: 200px;
+  max-width: 200px;
+}
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
