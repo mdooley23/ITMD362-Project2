@@ -61,6 +61,12 @@ footer{
 /* about us page css */
 
 /* contact us page css */
+div.contactetxt {
+    font-size: x-large;
+    margin-left: 40%;
+    margin-top: -7%;
+    margin-bottom: 5%;
+}
 input[type='email'], [type='text'], [type='tel'], [type='date'] select {
     width: 100%;
     padding: 12px 20px;
@@ -90,4 +96,7 @@ div.formcontainer {
     border-radius: 5px;
     background-color: #c2d4f5;
     padding: 20px;
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
 }
