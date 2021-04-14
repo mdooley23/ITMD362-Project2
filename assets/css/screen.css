@@ -5,32 +5,23 @@ head{
 body{
     background-color: #ffffff;
 }
-#footer1{
-    text-shadow: 0 0 3px #000, 0 0 5px #000;
-    color:#ffffff;
-    background-color: skyblue;
-    padding: 10px;
-    margin-top: 50px;
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: skyblue;
+  color: white;
+  text-align: center;
 }
-#footer2{
-    text-shadow: 0 0 3px #000, 0 0 5px #000;
-    color:#ffffff;
-    background-color: skyblue;
-    padding: 10px;
-    margin-top: 50px;
-}
-#footer3{
-    text-shadow: 0 0 3px #000, 0 0 5px #000;
-    color:#ffffff;
-    background-color: skyblue;
-    padding: 10px;
-    margin-top: 50px;
-}
-.title{
-    font-size: xx-large;
-    padding-top: 1%;
-    padding-left: 1%;
-    color: black;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: skyblue;
+  color: white;
+  text-align: center;
 }
 /* navbar */
 #main-navbar
@@ -38,6 +29,15 @@ body{
 	background-color: skyblue;
 	overflow: hidden;
 	width: 100%;
+}
+
+#navbar-brand
+{
+  margin: 0;
+  padding: 1;
+    left: 50%;
+  float: left;
+  position: fixed;
 }
 
 #navbar-container
@@ -78,7 +78,19 @@ body{
 {
 	background-color: royalblue;
 }
+
+
 /*index css */
+fieldset
+/*h1 with main logo on the Homepage*/
+
+h1{
+  background-color: #c6dff8;
+  Float:center;
+  width: 50%;
+  height: 15px;
+  border: 0px;
+ }
 
 /* about us page css */
 
@@ -98,7 +110,7 @@ input[type='email'], [type='text'], [type='tel'], [type='date'] select {
     border-radius: 4px;
     box-sizing: border-box;
 }
-  
+
 input[type=submit] {
     width: 100%;
     background-color: skyblue;
@@ -109,11 +121,11 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-  
+
 input[type=submit]:hover {
     background-color: royalblue;
 }
-  
+
 div.formcontainer {
     border-radius: 5px;
     background-color: #c2d4f5;
