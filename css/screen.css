@@ -1,0 +1,58 @@
+/* general css */
+head{
+    background-color: #eeeeee;
+}
+body{
+    background-color: #eeeeee;
+}
+/* navbar */
+#main-navbar
+{
+	background-color: #3a68ff;
+	overflow: hidden;
+	width: 100%;
+}
+
+#navbar-container
+{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+#main-navbar ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    left: 50%;
+ 	float: left;
+ 	position: relative;
+}
+
+#main-navbar ul li
+{
+    display: block;
+ 	float: left;
+ 	right: 50%;
+ 	position: relative;
+}
+
+#main-navbar ul li a
+{
+	display: block;
+	padding: 20px 20px;
+	color: rgb(22, 22, 22);
+	text-decoration: none;
+    font-size: x-large;
+}
+
+#main-navbar ul li a:hover
+{
+	background-color: #002763;
+}
+/*index css */
+
+/* about us page css */
+
+/* contact us page css */
