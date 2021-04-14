@@ -5,6 +5,11 @@ head{
 body{
     background-color: #eeeeee;
 }
+footer{
+    text-shadow: 0 0 3px #000, 0 0 5px #000;
+    color:#eeeeee;
+    background-color: #3a68ff;
+}
 /* navbar */
 #main-navbar
 {
