@@ -31,7 +31,6 @@ height: 20px;
   background-color: skyblue;
   color: white;
   text-align: center;
-  padding-bottom: -30px;
 }
 .footer {
   position: fixed;
@@ -105,17 +104,23 @@ height: 20px;
 /*h1 with main logo on the Homepage*/
 
 
+.bg-div {
+   overflow: hidden;
+}
+
 nav {
-    float: left;
+    float: center;
     text-align: center;
 
 }
 
 .logo{
-  max-height: 120px;
+  max-height: 125px;
   max-width: 300px;
+  padding-bottom: -20%;
   float: left;
-  position: left;
+
+  position: relative;
 }
 
 h1{
@@ -125,6 +130,30 @@ h1{
   height: 15px;
   border: 0px;
  }
+ .nav-links a{
+  color: lightblue;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+h1{
+  background-color: royalblue;
+  Float:center;
+  width: 50%;
+  height: 15px;
+  border: 0px;
+ }
+/*burger for mobile friendly web use*/
+
+}
+.burger div{
+  width: 25px;
+  height: 5px;
+  background-color: lightgrey;
+  margin:5px;
+}
+
 
 /* about us page css */
 
