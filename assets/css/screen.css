@@ -216,3 +216,30 @@ fieldset{
     margin-left:25%;
     margin-right:25%;
 }
+
+#slider {
+  opacity:1;
+  transition: opacity 1s; 
+}
+
+#slider.fadeOut {
+  opacity:0;
+}
+
+.picture {
+  display: block;
+  margin: auto;
+  width: 50%;
+  min-width: 400px;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+}
+
+.image {
+  display: block;
+  margin: auto;
+  height: 250px;
+}
