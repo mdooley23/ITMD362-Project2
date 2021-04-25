@@ -3,8 +3,26 @@ head{
     background-color: #ffffff;
 }
 body{
-    background-color: #ffffff;
+    background-color: lightgrey;
 }
+
+.banner{
+width:620px;
+margin-top: 5px;
+margin: auto;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+padding-left:100px;
+color:#37535B;
+background: #31B3DA url(banner1.png) no-repeat center left;
+opacity: .85;
+font-family: "Arial Narrow";
+height: 20px;
+
+}
+
 .header {
   position: fixed;
   left: 0;
@@ -34,7 +52,7 @@ body{
 #navbar-brand
 {
   margin: 0;
-  padding: 1;
+  padding: 0;
     left: 50%;
   float: left;
   position: fixed;
@@ -80,9 +98,31 @@ body{
 }
 
 
+
 /*index css */
-fieldset
+
 /*h1 with main logo on the Homepage*/
+
+
+.bg-div {
+   overflow: hidden;
+}
+
+nav {
+    float: center;
+    text-align: center;
+
+}
+
+.logo{
+  max-height: 200px;
+  max-width: 300px;
+  padding-bottom: -20%;
+  float: left;
+  position: absolute;
+  margin-left: -90em;
+  margin-top: -3em;
+}
 
 h1{
   background-color: #c6dff8;
@@ -91,6 +131,30 @@ h1{
   height: 15px;
   border: 0px;
  }
+ .nav-links a{
+  color: lightblue;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+h1{
+  background-color: royalblue;
+  Float:center;
+  width: 50%;
+  height: 15px;
+  border: 0px;
+ }
+/*burger for mobile friendly web use*/
+
+}
+.burger div{
+  width: 25px;
+  height: 5px;
+  background-color: lightgrey;
+  margin:5px;
+}
+
 
 /* about us page css */
 
@@ -99,15 +163,14 @@ body#aboutUs {
     background-attachment: fixed;
     background-position:center;
     color: #000000;
-    font-size: 10px;
     text-align: center;
   }
 
 /* contact us page css */
 div.contacttext {
     font-size: x-large;
-    margin-left: 40%;
-    margin-top: -7%;
+    margin-left: 25%;
+    margin-top: 20%;
     margin-bottom: 5%;
 }
 input[type='email'], [type='text'], [type='tel'], [type='date'] select {
