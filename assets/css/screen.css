@@ -166,6 +166,31 @@ body#aboutUs {
     text-align: center;
   }
 
+#about_wrapper {
+    width: 100%;
+    position: sticky;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#names {
+    width: 100%;
+    height: 40px;
+    background-color: royalblue;
+    color: #ffffff; 
+    text-align: match-parent;
+    font-size: 32px;
+  }
+
+#rickey {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(104, 136, 230);
+    color: #ffffff; 
+    text-align: match-parent;
+    font-size: 14px;
+}
+
 /* contact us page css */
 div.contacttext {
     font-size: x-large;
