@@ -52,7 +52,7 @@ height: 20px;
 #navbar-brand
 {
   margin: 0;
-  padding: 1;
+  padding: 0;
     left: 50%;
   float: left;
   position: fixed;
@@ -98,9 +98,31 @@ height: 20px;
 }
 
 
+
 /*index css */
-fieldset
+
 /*h1 with main logo on the Homepage*/
+
+
+.bg-div {
+   overflow: hidden;
+}
+
+nav {
+    float: center;
+    text-align: center;
+
+}
+
+.logo{
+  max-height: 200px;
+  max-width: 300px;
+  padding-bottom: -20%;
+  float: left;
+  position: absolute;
+  margin-left: -90em;
+  margin-top: -3em;
+}
 
 h1{
   background-color: #c6dff8;
@@ -109,6 +131,30 @@ h1{
   height: 15px;
   border: 0px;
  }
+ .nav-links a{
+  color: lightblue;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+h1{
+  background-color: royalblue;
+  Float:center;
+  width: 50%;
+  height: 15px;
+  border: 0px;
+ }
+/*burger for mobile friendly web use*/
+
+
+.burger div{
+  width: 25px;
+  height: 5px;
+  background-color: lightgrey;
+  margin:5px;
+}
+
 
 /* about us page css */
 
@@ -117,15 +163,39 @@ body#aboutUs {
     background-attachment: fixed;
     background-position:center;
     color: #000000;
-    font-size: 10px;
     text-align: center;
   }
+
+#about_wrapper {
+    width: 100%;
+    position: sticky;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#names {
+    width: 100%;
+    height: 40px;
+    background-color: royalblue;
+    color: #ffffff; 
+    text-align: match-parent;
+    font-size: 32px;
+  }
+
+#rickey {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(104, 136, 230);
+    color: #ffffff; 
+    text-align: match-parent;
+    font-size: 14px;
+}
 
 /* contact us page css */
 div.contacttext {
     font-size: x-large;
-    margin-left: 40%;
-    margin-top: 8%;
+    margin-left: 25%;
+    margin-top: 20%;
     margin-bottom: 5%;
 }
 input[type='email'], [type='text'], [type='tel'], [type='date'] select {
@@ -170,4 +240,31 @@ fieldset{
     text-align: center;
     margin-left:25%;
     margin-right:25%;
+}
+
+#slider {
+  opacity:1;
+  transition: opacity 1s; 
+}
+
+#slider.fadeOut {
+  opacity:0;
+}
+
+.picture {
+  display: block;
+  margin: auto;
+  width: 50%;
+  min-width: 400px;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+}
+
+.image {
+  display: block;
+  margin: auto;
+  height: 250px;
 }
