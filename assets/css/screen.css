@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
 /* general css */
+html {
+  font-family: 'Lora', serif;
+}
 head{
     background-color: #ffffff;
 }
 body{
     background-color: lightgrey;
 }
-
+#h2{
+  font-weight: bold;
+  font-size: 1.25em;
+}
 .banner{
 width:620px;
 margin-top: 5px;
@@ -147,7 +155,7 @@ h1{
  }
 /*burger for mobile friendly web use*/
 
-}
+
 .burger div{
   width: 25px;
   height: 5px;
@@ -192,11 +200,37 @@ body#aboutUs {
 }
 
 /* contact us page css */
+div.contacttextbox {
+  position: relative;
+  margin-top: 5%;
+  margin-left: 25%;
+  background-color: #c2d4f5;
+  width: 630px;
+  height: 300px;
+  margin-bottom: 2%;
+}
 div.contacttext {
-    font-size: x-large;
-    margin-left: 25%;
-    margin-top: 20%;
-    margin-bottom: 5%;
+  font-size: x-large;
+  margin-left: 12%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 525px;
+  height: 300px;
+  position: inherit;
+}
+div.contactmedia {
+  position: fixed;
+  margin-left: 50%;
+  background-color: #c2d4f5;
+  width: 630px;
+  height: 300px;
+}
+.contactusimg {
+  position: inherit;
+  margin-top: 25px;
+  margin-left: 85px;
+  height: 250px;
+  width: 450px;
 }
 input[type='email'], [type='text'], [type='tel'], [type='date'] select {
     width: 100%;
