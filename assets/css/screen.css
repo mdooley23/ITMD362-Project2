@@ -201,23 +201,25 @@ body#aboutUs {
 
 /* contact us page css */
 div.contacttextbox {
-  position: fixed;
-  margin-top: -3%;
-  margin-left: 50%;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 25%;
   background-color: #c2d4f5;
   width: 630px;
   height: 300px;
+  margin-bottom: 2%;
 }
 div.contacttext {
-    font-size: x-large;
-    margin-left: 25%;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    width: 15%;
+  font-size: x-large;
+  margin-left: 12%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 525px;
+  height: 300px;
+  position: inherit;
 }
 div.contactmedia {
   position: fixed;
-  margin-top: -3%;
   margin-left: 50%;
   background-color: #c2d4f5;
   width: 630px;
