@@ -10,7 +10,10 @@ head{
 body{
     background-color: lightgrey;
 }
-
+#h2{
+  font-weight: bold;
+  font-size: 1.25em;
+}
 .banner{
 width:620px;
 margin-top: 5px;
@@ -197,22 +200,35 @@ body#aboutUs {
 }
 
 /* contact us page css */
+div.contacttextbox {
+  position: fixed;
+  margin-top: -3%;
+  margin-left: 50%;
+  background-color: #c2d4f5;
+  width: 630px;
+  height: 300px;
+}
 div.contacttext {
     font-size: x-large;
     margin-left: 25%;
-    margin-top: 8%;
+    margin-top: 10%;
     margin-bottom: 5%;
     width: 15%;
 }
-div.contactmedia{
-  position: inherit;
-  margin-top: 8%;
+div.contactmedia {
+  position: fixed;
+  margin-top: -3%;
   margin-left: 50%;
+  background-color: #c2d4f5;
+  width: 630px;
+  height: 300px;
 }
-.contactusimg{
+.contactusimg {
   position: inherit;
-  margin-top: 8%;
-  margin-left: 50%;
+  margin-top: 25px;
+  margin-left: 85px;
+  height: 250px;
+  width: 450px;
 }
 input[type='email'], [type='text'], [type='tel'], [type='date'] select {
     width: 100%;
