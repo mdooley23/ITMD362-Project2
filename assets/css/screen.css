@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
 /* general css */
+html {
+  font-family: 'Lora', serif;
+}
 head{
     background-color: #ffffff;
 }
