@@ -10,7 +10,7 @@ head{
 body{
     background-color: lightgrey;
 }
-#h2{
+h2{
   font-weight: bold;
   font-size: 1.25em;
 }
@@ -210,13 +210,15 @@ div.contacttextbox {
   margin-bottom: 2%;
 }
 div.contacttext {
-  font-size: x-large;
+  font-size: larger;
   margin-left: 12%;
-  margin-top: auto;
+  margin-top: 150px;
   margin-bottom: auto;
   width: 525px;
   height: 300px;
   position: inherit;
+  padding-top: 10%;
+  font-family: 'Lora', serif;
 }
 div.contactmedia {
   position: fixed;
@@ -301,4 +303,46 @@ fieldset{
   display: block;
   margin: auto;
   height: 250px;
+}
+
+@media only screen and (min-width: 768px){
+  /* CONTACT PAGE CODE */
+  div.contacttext {
+    font-size: large;
+    margin-left: 12%;
+    margin-top: 150px;
+    margin-bottom: auto;
+    width: 75%;
+    height: 50%;
+    position: inherit;
+    padding-top: 10%;
+    font-family: 'Lora', serif;
+    text-align: center;
+  }
+div.contacttextbox {
+  position: relative;
+  margin-top: -15%;
+  margin-left: 25%;
+  background-color: #c2d4f5;
+  width: 50%;
+  height: 250px;
+  margin-bottom: 2%;
+}
+div.contactmedia {
+  position: relative;
+  margin-left: 13%;
+  background-color: #c2d4f5;
+  width: 630px;
+  height: 300px;
+  margin-top: 12%;
+}
+div.formcontainer {
+  border-radius: 5px;
+  background-color: #c2d4f5;
+  padding: 20px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+}
 }
