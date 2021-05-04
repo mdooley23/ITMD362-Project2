@@ -8,24 +8,30 @@
     <script src="assets/javascript/site.js" async></script>
     <!--fonts-->
     <title>Contact Us</title>
-</head>
-  <header class="header">
-      <h1 class = "banner">Update: Due to COVID-19 restrictions our services maybe temporay unavaliable.</h1>
-    <nav id = "main-navbar">
-      <nav id = "main-navbar">
-        <nav id class = "main-navbar">
-        <body>
-        <div id='nav'>
-          <img class="logo" src="assets/img/isud_logo.jpg"/>
-        <ul>
-          <li><a href="index.html">Homepage</a></li>
-          <li><a href="aboutus.html">About Us</a></li>
-          <li><a href="contactus.html">Contact Us</a></li>
-        </ul>
-      </nav>
-    </nav>
-  </header>
-  <body>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="topnav" id="myTopnav">
+      <img src="assets\img\isud_logo.jpg" style="width: 97px;" id="logo" />
+      <a href="index.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a class="active" href="contactus.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+    </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+
+
+
+      <body>
         <main id="content">
           <div class="contactmedia">
             <img class="contactusimg" src="assets/img/contactusmedia.webp"/>
@@ -70,4 +76,3 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </body>
 </html>
-
