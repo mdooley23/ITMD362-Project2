@@ -49,65 +49,34 @@ height: 20px;
   color: white;
   text-align: center;
 }
+
 /* navbar */
-#main-navbar
-{
-	background-color: skyblue;
-	overflow: hidden;
-	width: 100%;
+.topnav {
+  background-color: royalblue;
+  overflow: hidden;
 }
 
-#navbar-brand
-{
-  margin: 0;
-  padding: 0;
-    left: 50%;
+/* Style the links inside the navigation bar */
+.topnav a {
   float: left;
-  position: fixed;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-#navbar-container
-{
-	float: left;
-	width: 100%;
-	position: relative;
-}
-.navbar{
-        margin-bottom: 50px;
-}
-#main-navbar ul
-{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-    left: 50%;
- 	float: left;
- 	position: relative;
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightblue;
+  color: black;
 }
 
-#main-navbar ul li
-{
-    display: block;
- 	float: left;
- 	right: 50%;
- 	position: relative;
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: darkblue;
+  color: white;
 }
-
-#main-navbar ul li a
-{
-	display: block;
-	padding: 20px 20px;
-	color: rgb(255, 255, 255);
-	text-decoration: none;
-    font-size: x-large;
-}
-
-#main-navbar ul li a:hover
-{
-	background-color: royalblue;
-}
-
-
 
 /*index css */
 
