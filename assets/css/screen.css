@@ -356,7 +356,7 @@ div.formcontainer {
   margin-bottom: 5%;
 }
 }
-@media only screen and (max-width: 3000px){
+@media only screen and (max-width: 900px){
   /* CONTACT PAGE CODE */
   div.contacttext {
     font-size: large;
@@ -405,6 +405,5 @@ ul.formlist{
   text-align: center;
   margin-left:15%;
   margin-right:15%;
-}
 }
 }
