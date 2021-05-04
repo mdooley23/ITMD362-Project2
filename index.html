@@ -9,11 +9,25 @@
     <link rel="icon" href="assets/img/TabIcon.jpg">
     <script src="assets/javascript/site.js" async></script>
   </head>
-  <div class="topnav">
-  <a class="active" href="index.html">Home</a>
-  <a href="aboutus.html">About Us</a>
-  <a href="contactus.html">Contact</a>
-</div>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="topnav" id="myTopnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contactus.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+  </div>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
 
    <body>
           <img style="width:100%;" src="assets\img\mainpage4.jpg" class="img-about_wrapper">
