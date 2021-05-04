@@ -185,7 +185,7 @@ body#aboutUs {
     width: 100%;
     height: 40px;
     background-color: royalblue;
-    color: #ffffff; 
+    color: #ffffff;
     text-align: match-parent;
     font-size: 32px;
   }
@@ -194,7 +194,7 @@ body#aboutUs {
     width: 100%;
     height: 100%;
     background-color: rgb(104, 136, 230);
-    color: #ffffff; 
+    color: #ffffff;
     text-align: match-parent;
     font-size: 14px;
 }
@@ -280,7 +280,7 @@ fieldset{
 
 #slider {
   opacity:1;
-  transition: opacity 1s; 
+  transition: opacity 1s;
 }
 
 #slider.fadeOut {
