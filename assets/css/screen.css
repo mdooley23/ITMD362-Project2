@@ -269,8 +269,8 @@ div.formcontainer {
 }
 ul.formlist{
     text-align: center;
-    margin-left:25%;
-    margin-right:25%;
+    margin-left:5%;
+    margin-right:5%;
 }
 fieldset{
     text-align: center;
@@ -319,6 +319,11 @@ fieldset{
     font-family: 'Lora', serif;
     text-align: center;
   }
+ul.formlist{
+  text-align: center;
+  margin-left:10%;
+  margin-right:10%;
+}
 div.contacttextbox {
   position: relative;
   margin-top: -15%;
@@ -348,5 +353,55 @@ div.formcontainer {
   margin-left: 25%;
   margin-right: 25%;
   margin-bottom: 5%;
+}
+}
+@media only screen and (max-width: 3000px){
+  /* CONTACT PAGE CODE */
+  div.contacttext {
+    font-size: large;
+    margin-left: 12%;
+    margin-top: 150px;
+    margin-bottom: auto;
+    width: 75%;
+    height: 50%;
+    position: inherit;
+    padding-top: 10%;
+    font-family: 'Lora', serif;
+    text-align: center;
+  }
+div.contacttextbox {
+  position: relative;
+  margin-top: -15%;
+  margin-left: 25%;
+  background-color: #c2d4f5;
+  width: 50%;
+  height: 250px;
+  margin-bottom: 2%;
+}
+div.contactmedia {
+  position: relative;
+  margin-left: 28%;
+  background-color: #c2d4f5;
+  width: 630px;
+  height: 300px;
+  margin-top: 12%;
+  margin-bottom: 17%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.formcontainer {
+  border-radius: 5px;
+  background-color: #c2d4f5;
+  padding: 20px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+}
+ul.formlist{
+  text-align: center;
+  margin-left:15%;
+  margin-right:15%;
 }
 }
