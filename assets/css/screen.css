@@ -306,7 +306,7 @@ fieldset{
   height: 250px;
 }
 
-@media only screen and (min-width: 2500px){
+@media only screen and (min-width: 1920px){
   /* CONTACT PAGE CODE */
   div.contacttext {
     font-size: large;
@@ -356,7 +356,7 @@ div.formcontainer {
   margin-bottom: 5%;
 }
 }
-@media only screen and (min-width: 900px){
+@media only screen and (max-width: 1900px){
   /* CONTACT PAGE CODE */
   div.contacttext {
     font-size: large;
