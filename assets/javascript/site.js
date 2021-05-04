@@ -1,7 +1,11 @@
+document.getElementById("submit").addEventListener("click", allInputs);
+
 function RmAddClass($) {
     $('html').removeClass('nojs');
     $('html').addClass('hasjs');
   };
+
+form.onsubmit = submit;
 
 function allInputs() {
   var a = document.forms["form-one"]["first-name"].value;
