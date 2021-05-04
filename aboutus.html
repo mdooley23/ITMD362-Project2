@@ -11,38 +11,27 @@
     <!--fonts-->
   </head>
 
-    <body id=aboutUs>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="topnav" id="myTopnav">
+    <img src="assets\img\isud_logo.jpg" style="width: 97px;" id="logo" />
+    <a href="index.html">Home</a>
+    <a class="active" href="aboutus.html">About Us</a>
+    <a href="contactus.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+  </div>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
 
-      <header class="header">
-        <h1 class = "banner">Update: Due to COVID-19 restrictions our services maybe temporay unavaliable.</h1>
-        <nav id = "main-navbar">
-        <header>
-            <nav id = "main-navbar">
-                <div id = "navbar-container">
-                  <nav id class = "main-navbar">
-                  <body>
-                  <div id='nav'>
-                    <img class="logo" src="assets/img/isud_logo.jpg"/>
-                    <ul>
-                        <li><a href="index.html">Homepage</a></li>
-                        <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="contactus.html">Contact Us</a></li>
-                    </ul>
-                    <div class="burger">
-                      <div class="line1"></div>
-                      <div class="line2"></div>
-                      <div class="line3"></div>
-                    </nav>
-                    </nav>
-                    <div class="clear"></div>
-                </div>
 
-            </nav>
-          </div>
-        </nav>
-      </header>
-    </nav>
-	  
+  <body id=aboutUs>
     <div id="about_wrapper">
       <div id="names">
         <h1>Maryrose Dooley</h1>
@@ -51,7 +40,7 @@
       <p>(add media here)</p>
       <p> </p>
     </div>
-    
+
     <div id="about_wrapper">
       <div id="names">
         <h1>Chris Murphy</h1>
@@ -60,7 +49,7 @@
       <p>(add media here)</p>
       <p> </p>
     </div>
-    
+
     <div id="rickey">
       <div id="about_wrapper">
         <div id="names">

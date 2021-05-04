@@ -1,7 +1,7 @@
-jQuery(function($) {
+function RmAddClass($) {
     $('html').removeClass('nojs');
     $('html').addClass('hasjs');
-  });
+  };
 
   function allInputs() {
     var a = document.forms["form-one"]["first-name"].value;
