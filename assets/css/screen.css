@@ -116,6 +116,7 @@ height: 20px;
 }
 #logo {
   float: left;
+  width: 90px;
 }
 /*index css */
 
@@ -143,6 +144,10 @@ nav {
 }
 .padding{
   padding-top: 50px;
+  width:100%;
+}
+.pc{
+  text-align:center;
 }
 .center {
   display: block;
@@ -154,11 +159,28 @@ nav {
 .h1index{
   padding-top: 50px;
   font-size: 30px;
+  text-align:center;
 }
 .h1index1{
-  padding-top: 50px;
   padding-bottom: 50px;
-  font-size: 30px;
+  font-size: 20px;
+  text-align:center;
+}
+.h1index2{
+  font-size: 20px;
+  text-align:center;
+}
+.h1index3{
+  padding-top: 50px;
+  font-size: 20px;
+  text-align:center;
+}
+.h1index4{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 35px;
+  text-decoration: underline;
+  text-align:center;
 }
 h1{
   background-color: #c6dff8;
