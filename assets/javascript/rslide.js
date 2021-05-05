@@ -1,7 +1,7 @@
 var images = [
-	"assets/img/Rickey1.jpg",
-	"assets/img/Rickey2.jpg",
-	"assets/img/Rickey3.jpg"],
+	"assets/img/rickey1.jpg",
+	"assets/img/rickey2.jpg",
+	"assets/img/rickey3.jpg"],
 	curIndex = 0;
     imgDuration = 4000; // Images Array
 
