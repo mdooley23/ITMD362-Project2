@@ -225,8 +225,10 @@ textarea {
   font: inherit; /* 2 */
 }
 
+
+/* navbar */
 .topnav {
-  background-color: royalblue;
+  background-color: #063F7A;
   overflow: hidden;
 }
 
@@ -242,13 +244,13 @@ textarea {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: lightblue;
+  background-color: #4E8FD3;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: darkblue;
+  background-color: #0959AD;
   color: white;
 }
 /* Hide the link that should open and close the topnav on small screens */
