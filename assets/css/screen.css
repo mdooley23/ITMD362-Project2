@@ -127,7 +127,7 @@ height: 20px;
 }
 
 nav {
-    float: center;
+    /*float: center;*/
     text-align: center;
 
 }
@@ -135,7 +135,7 @@ nav {
 .logo{
   max-height: 200px;
   max-width: 300px;
-  padding-bottom: -20%;
+  /*padding-bottom: -20%;*/
   float: left;
   position: absolute;
   margin-left: -90em;
@@ -157,7 +157,7 @@ nav {
 }
 h1{
   background-color: #c6dff8;
-  Float:center;
+  /*Float:center;*/
   width: 50%;
   height: 15px;
   border: 0px;
@@ -171,7 +171,7 @@ h1{
 }
 h1{
   background-color: royalblue;
-  Float:center;
+  /*Float:center;*/
   width: 50%;
   height: 15px;
   border: 0px;
