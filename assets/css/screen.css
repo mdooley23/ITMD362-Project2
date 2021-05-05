@@ -15,6 +15,15 @@ h2{
   font-weight: bold;
   font-size: 1.25em;
 }
+.sizze{
+  display: block;
+  min-width: 20%;
+  max-width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
 .banner{
 width:620px;
 margin-top: 5px;
@@ -107,6 +116,7 @@ height: 20px;
 }
 #logo {
   float: left;
+  width: 90px;
 }
 /*index css */
 
@@ -118,7 +128,7 @@ height: 20px;
 }
 
 nav {
-    float: center;
+    /*float: center;*/
     text-align: center;
 
 }
@@ -126,7 +136,7 @@ nav {
 .logo{
   max-height: 200px;
   max-width: 300px;
-  padding-bottom: -20%;
+  /*padding-bottom: -20%;*/
   float: left;
   position: absolute;
   margin-left: -90em;
@@ -134,6 +144,10 @@ nav {
 }
 .padding{
   padding-top: 50px;
+  width:100%;
+}
+.pc{
+  text-align:center;
 }
 .center {
   display: block;
@@ -144,10 +158,33 @@ nav {
 }
 .h1index{
   padding-top: 50px;
+  font-size: 30px;
+  text-align:center;
+}
+.h1index1{
+  padding-bottom: 50px;
+  font-size: 20px;
+  text-align:center;
+}
+.h1index2{
+  font-size: 20px;
+  text-align:center;
+}
+.h1index3{
+  padding-top: 50px;
+  font-size: 20px;
+  text-align:center;
+}
+.h1index4{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 35px;
+  text-decoration: underline;
+  text-align:center;
 }
 h1{
   background-color: #c6dff8;
-  Float:center;
+  /*Float:center;*/
   width: 50%;
   height: 15px;
   border: 0px;
@@ -161,7 +198,7 @@ h1{
 }
 h1{
   background-color: royalblue;
-  Float:center;
+  /*Float:center;*/
   width: 50%;
   height: 15px;
   border: 0px;
