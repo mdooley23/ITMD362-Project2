@@ -116,6 +116,7 @@ height: 20px;
 }
 #logo {
   float: left;
+  width: 90px;
 }
 /*index css */
 
@@ -143,6 +144,10 @@ nav {
 }
 .padding{
   padding-top: 50px;
+  width:100%;
+}
+.pc{
+  text-align:center;
 }
 .center {
   display: block;
@@ -154,6 +159,38 @@ nav {
 .h1index{
   padding-top: 50px;
   font-size: 30px;
+  text-align:center;
+  word-wrap: break-word;
+}
+.h1index1{
+  padding-bottom: 50px;
+  font-size: 20px;
+  text-align:center;
+  word-wrap: break-word;
+}
+.h1index2{
+  font-size: 20px;
+  text-align:center;
+  word-wrap: break-word;
+}
+.h1index3{
+  padding-top: 50px;
+  font-size: 20px;
+  text-align:center;
+  word-wrap: break-word;
+}
+.h1index4{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 35px;
+  text-decoration: underline;
+  text-align:center;
+  word-wrap: break-word;
+}
+.h1index5{
+  font-size: 10px;
+  text-align:center;
+  word-wrap: break-word;
 }
 h1{
   background-color: #c6dff8;
@@ -190,45 +227,47 @@ h1{
 /* about us page css */
 
 body#aboutUs {
-    background-color: #90B1D3;
-    background-attachment: fixed;
-    background-position:center;
-    color: #000000;
-    text-align: center;
-  }
+  background-color: #90B1D3;
+  background-attachment: fixed;
+  background-position:center;
+  color: #000000;
+  text-align: center;
+}
 
 #about_wrapper {
-    width: 75%;
-    position: sticky;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  width: 75%;
+  position: sticky;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #names {
-    width: 100%;
-    height: 40px;
-    background-color: royalblue;
-    color: #ffffff;
-    text-align: match-parent;
-    font-size: 32px;
-  }
+  width: 100%;
+  height: 40px;
+  background-color: royalblue;
+  color: #ffffff;
+  text-align: match-parent;
+  font-size: 32px;
+}
 
 #person2 {
-    width: 100%;
-    height: 100%;
-    background-color: #90B1D3;
-    color: #ffffff;
-    text-align: match-parent;
-    font-size: 14px;
+  width: 100%;
+  height: 100%;
+  background-color: #90B1D3;
+  color: #ffffff;
+  text-align: match-parent;
+  font-size: 16px;
+  padding-bottom: 10px;
 }
 
 #person13 {
-    width: 100%;
-    height: 100%;
-    background-color: #537FAE;
-    color: #ffffff;
-    text-align: match-parent;
-    font-size: 14px;
+  width: 100%;
+  height: 100%;
+  background-color: #537FAE;
+  color: #ffffff;
+  text-align: match-parent;
+  font-size: 16px;
+  padding-bottom: 10px;
 }
 
 /* contact us page css */
