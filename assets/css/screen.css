@@ -160,20 +160,24 @@ nav {
   padding-top: 50px;
   font-size: 30px;
   text-align:center;
+  word-wrap: break-word;
 }
 .h1index1{
   padding-bottom: 50px;
   font-size: 20px;
   text-align:center;
+  word-wrap: break-word;
 }
 .h1index2{
   font-size: 20px;
   text-align:center;
+  word-wrap: break-word;
 }
 .h1index3{
   padding-top: 50px;
   font-size: 20px;
   text-align:center;
+  word-wrap: break-word;
 }
 .h1index4{
   padding-top: 30px;
@@ -181,6 +185,12 @@ nav {
   font-size: 35px;
   text-decoration: underline;
   text-align:center;
+  word-wrap: break-word;
+}
+.h1index5{
+  font-size: 10px;
+  text-align:center;
+  word-wrap: break-word;
 }
 h1{
   background-color: #c6dff8;
