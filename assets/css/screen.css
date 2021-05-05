@@ -246,7 +246,8 @@ body#aboutUs {
     background-color: #90B1D3;
     color: #ffffff;
     text-align: match-parent;
-    font-size: 14px;
+    font-size: 16px;
+	padding-bottom: 10px;
 }
 
 #person13 {
@@ -255,7 +256,8 @@ body#aboutUs {
     background-color: #537FAE;
     color: #ffffff;
     text-align: match-parent;
-    font-size: 14px;
+    font-size: 16px;
+	padding-bottom: 10px;
 }
 
 /* contact us page css */
