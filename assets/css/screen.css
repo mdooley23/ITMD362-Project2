@@ -234,14 +234,14 @@ body#aboutUs {
   text-align: center;
 }
 
-#about_wrapper {
+.about_wrapper {
   width: 75%;
   position: sticky;
   margin-left: auto;
   margin-right: auto;
 }
 
-#names {
+.names {
   width: 100%;
   height: 40px;
   background-color: royalblue;
@@ -250,7 +250,7 @@ body#aboutUs {
   font-size: 32px;
 }
 
-#person2 {
+.person2 {
   width: 100%;
   height: 100%;
   background-color: #90B1D3;
@@ -260,7 +260,7 @@ body#aboutUs {
   padding-bottom: 10px;
 }
 
-#person13 {
+.person13 {
   width: 100%;
   height: 100%;
   background-color: #537FAE;
